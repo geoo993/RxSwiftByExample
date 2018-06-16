@@ -1,0 +1,8 @@
+# carthage bootstrap [RepositoryName] --no-use-binaries --platform ios --cache-builds
+# or (beware!)
+# carthage update [RepositoryName] --no-use-binaries --platform ios  --cache-builds
+github "DanielAsher/RxFeedback.swift"
+github "RxSwiftCommunity/RxDataSources"
+github "RxSwiftCommunity/RxGesture"
+github "RxSwiftCommunity/RxSwiftExt"
+github "ReactiveX/RxSwift"
