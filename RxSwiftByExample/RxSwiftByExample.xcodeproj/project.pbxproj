@@ -457,6 +457,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C746EF2D20D673690044E80E /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C74B1FC920D66FCC003F4C38 /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; };
 		C77C476320D4FCD600B066DE /* RxSwiftByExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftByExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77C476620D4FCD600B066DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C77C476820D4FCD600B066DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -465,6 +467,8 @@
 		C77C477020D4FCDF00B066DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77C477220D4FCDF00B066DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77C477A20D4FE5A00B066DE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = ../../Cartfile; sourceTree = "<group>"; };
+		C78CCBFE20D6638400907B1B /* RxTutorial2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxTutorial2.playground; sourceTree = "<group>"; };
+		C78CCC0820D6638700907B1B /* RxTutorial1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxTutorial1.playground; sourceTree = "<group>"; };
 		C7F1E1D620D5DE500020B39E /* RxFeedback.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxFeedback.xcodeproj; path = ../../Carthage/Checkouts/RxFeedback.swift/RxFeedback.xcodeproj; sourceTree = "<group>"; };
 		C7F1E1E420D5DE510020B39E /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = ../../Carthage/Checkouts/RxSwift/Rx.xcodeproj; sourceTree = "<group>"; };
 		C7F1E22620D5DE7C0020B39E /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = ../../Carthage/Checkouts/RxDataSources/RxSwift/Rx.xcodeproj; sourceTree = "<group>"; };
@@ -493,6 +497,7 @@
 		C77C475A20D4FCD600B066DE = {
 			isa = PBXGroup;
 			children = (
+				C78CCBCA20D6634C00907B1B /* Playgrounds */,
 				C77C477820D4FE2700B066DE /* Config */,
 				C77C477920D4FE3100B066DE /* Dependencies */,
 				C77C476520D4FCD600B066DE /* RxSwiftByExample */,
@@ -540,6 +545,17 @@
 				C7F1E1D620D5DE500020B39E /* RxFeedback.xcodeproj */,
 			);
 			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		C78CCBCA20D6634C00907B1B /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C746EF2D20D673690044E80E /* RxSwift.playground */,
+				C74B1FC920D66FCC003F4C38 /* Rx.playground */,
+				C78CCC0820D6638700907B1B /* RxTutorial1.playground */,
+				C78CCBFE20D6638400907B1B /* RxTutorial2.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		C7F1E1D720D5DE500020B39E /* Products */ = {
@@ -1280,6 +1296,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDAK5XPRG7;
 				INFOPLIST_FILE = RxSwiftByExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1287,6 +1304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geo-games.RxSwiftByExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1298,6 +1316,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDAK5XPRG7;
 				INFOPLIST_FILE = RxSwiftByExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1305,6 +1324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.geo-games.RxSwiftByExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

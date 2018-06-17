@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Statemachine command pipeline'/>
+        <page name='single bug?'/>
+        <page name='Misc'/>
+        <page name='BehaviourTree'/>
+        <page name='flatmapLatest with empty'/>
+    </pages>
+</playground>
