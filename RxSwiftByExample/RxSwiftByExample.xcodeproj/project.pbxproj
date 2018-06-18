@@ -469,6 +469,7 @@
 		C77C477A20D4FE5A00B066DE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = ../../Cartfile; sourceTree = "<group>"; };
 		C78CCBFE20D6638400907B1B /* RxTutorial2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxTutorial2.playground; sourceTree = "<group>"; };
 		C78CCC0820D6638700907B1B /* RxTutorial1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxTutorial1.playground; sourceTree = "<group>"; };
+		C7D3CFA620D71B61001B93EC /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7F1E1D620D5DE500020B39E /* RxFeedback.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxFeedback.xcodeproj; path = ../../Carthage/Checkouts/RxFeedback.swift/RxFeedback.xcodeproj; sourceTree = "<group>"; };
 		C7F1E1E420D5DE510020B39E /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = ../../Carthage/Checkouts/RxSwift/Rx.xcodeproj; sourceTree = "<group>"; };
 		C7F1E22620D5DE7C0020B39E /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = ../../Carthage/Checkouts/RxDataSources/RxSwift/Rx.xcodeproj; sourceTree = "<group>"; };
@@ -550,6 +551,7 @@
 		C78CCBCA20D6634C00907B1B /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				C7D3CFA620D71B61001B93EC /* RxSwiftPlayground.playground */,
 				C746EF2D20D673690044E80E /* RxSwift.playground */,
 				C74B1FC920D66FCC003F4C38 /* Rx.playground */,
 				C78CCC0820D6638700907B1B /* RxTutorial1.playground */,
