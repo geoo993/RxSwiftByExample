@@ -1,0 +1,12 @@
+TRAITS
+
+Traits are designed to introduce more context to your code. These Traits are totally optional, using them can really be useful to convey your intensions to readers of your code.
+
+There are 3 Traits (Single, Completable, Maybe)
+
+Single will only either emit a single Next event containing an element or will emit an Error event containing an error.
+
+Completable will only either emit a Completed event or will emit an Error event containing an error, but cannot emit Next events.
+
+Maybe is sort of a match between Single and Completable, it will only emit one event,
+which can be a Next event, or a Completed event or an Error event.

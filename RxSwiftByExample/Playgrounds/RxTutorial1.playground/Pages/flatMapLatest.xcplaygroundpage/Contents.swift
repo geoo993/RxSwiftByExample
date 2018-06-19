@@ -2,7 +2,6 @@
 import Foundation
 import UIKit
 import RxSwift
-import XCGLogger
 
 func color(r: Int, _ g: Int, _ b: Int) -> String {
     return XCGLogger.XcodeColor(fg: (r, g, b)).format()
