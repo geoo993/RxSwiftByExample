@@ -136,8 +136,8 @@ example(of: "FlatMap") {
 
 }
 
-// when you only wnat to keep up with the latest element in the source observable you use FlatMapLatest.
-// FlatMapLatest projects each element of an observable sequence into a new sequence of observable sequences and then transforms an observable sequence of observable sequences into an observable seqeunce producing values only from the most recent observable sequence.
+// when you only want to keep up with the latest element in the source observable you use FlatMapLatest.
+// FlatMapLatest projects each element of an observable sequence into a new sequence of observable sequences and then transforms an observable sequence of observable sequences into an observable sequence producing values only from the most recent observable sequence.
 // essentially, FlatMapLatest it only produces values from the most recent observable sequence.
 // it is actually a combination of two operators, Map and SwitchLatest
 // SwitchLatest will produce values from the most recent observable and unsubscribe from the previous observables.

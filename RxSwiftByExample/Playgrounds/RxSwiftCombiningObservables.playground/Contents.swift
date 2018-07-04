@@ -229,7 +229,7 @@ example(of: "amb") {
 }
 
 // the reduce in RxSwift works very similarly to the reduce in swift
-// it allows you to combine an pbservable with its selft using an accumulator
+// it allows you to combine an observable with its self using an accumulator
 // to determine how to do the combining,
 // you can also pass a closure to determine how to perform the accumulation
 example(of: "reduce") {
