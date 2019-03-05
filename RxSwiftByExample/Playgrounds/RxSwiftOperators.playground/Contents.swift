@@ -352,7 +352,7 @@ example(of: "PublishSubject") {
 }
 
 // sometimes you want subscribers to always receive the most recent next events,
-// event if they subscribed after that event was emitted, for this you sue BehaviorSubject
+// even if they subscribed after that event was emitted, for this you use BehaviorSubject
 // BehaviorSubject start with an initial value, and will replay the latest value or
 // the initial value if no other values have been added on yet to new subscribers.
 example(of: "BehaviorSubject") {
